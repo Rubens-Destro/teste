@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+h1{
+  padding-bottom: 16px;
+  color: red;
+}
+img{
+  height: 65
+  px;
+  width: 80px;
+}
+.log{
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+.log input[type="text"],
+  .log input[type="email"],
+  .log input[type="password"],
+  .log input[type="tel"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.log input[type="button"]{
+  cursor: pointer;
+  background-color: red;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 2px 2px rgb(104, 102, 102);
+  border-color: red;
+  color: #ffffff;
+}
+.volta{
+  display:flex;
+  width: 30px;
+}
